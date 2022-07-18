@@ -8,5 +8,15 @@
     Returns:
         list: return answer 
 */
+List func(a, b) {
+  List l = [];
+  l.add(a);
+  l.add(b);
+  l.insert(1, 'orange');
+  return l;
+}
 
-void main() {}
+void main() {
+  print(func('patota', 'orange'));
+}
+
