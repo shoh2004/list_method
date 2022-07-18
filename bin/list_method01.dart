@@ -7,5 +7,18 @@
     Returns:
         list: return answer
 */
+List func(String a,String b){
+  List k=['apple','grape'];
 
-void main() {}
+   k.addAll([a,b]);
+  
+   return k;
+
+  
+
+  
+
+}
+void main(){ 
+  print(func('pear','lemon'));}
+
