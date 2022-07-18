@@ -7,5 +7,12 @@
     Returns:
         list: return answer
 */
-
-void main() {}
+int func(List numbers,int i){
+  numbers[i];
+  List x = [];
+  x.add(numbers[i]);
+  return numbers[i];
+}
+void main() {
+  print(func([6,7,9,4,2],4));
+}
