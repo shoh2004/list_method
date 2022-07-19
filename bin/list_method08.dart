@@ -6,5 +6,18 @@
     Returns:
         list: return answer
 */
+List func(List fruits){
+  int b = 0;
+  int a= fruits.length-1;
+ 
+  while(a>b){
+    
+    fruits.remove('apple');
+    b++;
+  }
+  return fruits;
+}
+void main() {
+ print(func(["apple", "banana", "apple", "pear", "apple"]));
+}
 
-void main() {}
