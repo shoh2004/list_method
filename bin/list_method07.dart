@@ -6,5 +6,18 @@
     Returns:
         int: return answer
 */
-
-void main() {}
+int func(List fruits){
+  int a = 0;
+  int y = 0;
+  int h = fruits.length-1;
+  while(h>=a){
+    if(fruits[a]==0){
+      y++;
+    }
+    a++;
+  }
+  return y;
+}
+void main() {
+  print(func([1,0,1,1,1,0,1]));
+}
